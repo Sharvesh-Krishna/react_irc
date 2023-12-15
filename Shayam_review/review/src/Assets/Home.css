@@ -1,0 +1,86 @@
+ 
+section {
+    padding: 2em;
+    background-color: #ffffff;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    display: inline;
+    margin: 10px;
+}
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+  }
+  
+  a:hover {
+    color: #ffcc00; 
+}
+
+    button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 1em 2em;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3367d6;
+}
+
+h1{
+    /* padding-top: 5cm; */
+    color: #000000;
+    /* text-decoration: color(black)    ; */
+}
+
+.Shayam{
+  padding-bottom: 190px;
+  height: 30px;
+  width: 100%;
+}
+
+.backbish{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 1em; */
+    font-size: large;
+    background-size: cover;
+    margin: 0%;
+    height: 597px;
+    width: 1280px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-photo/frame-flowers-tools_23-2148672694.jpg?w=900&t=st=1702401184~exp=1702401784~hmac=15d8c67eba737105ac49c673ecc5068aad5e1a73bfccb6086e6c87222f28301e');
+    
+  }
+  
+  .body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    text-decoration-color: black;
+}
